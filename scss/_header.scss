@@ -1,0 +1,71 @@
+.header{
+    &__nav{
+        background: #00a94b;
+        padding: 20px 190px;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+    &__list-item--bordered{
+        border-right: 1px solid #fff;
+        padding-right: 30px;
+    }
+    &__icon{
+        margin-right: 10px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 190px 12px;
+        background-color: #E8E7E7;
+    }
+    &__select{
+        width: 65px;
+        height: 35px;
+        background-color: #F1F1F1;
+        border: none;
+        border-radius: 6px;
+        padding: 10px;
+    }
+    &__input{
+        width: 770px;
+        height: 35px;
+        border: none;
+    }
+    &__btn{
+        background-color: #FFAE2D;
+        border: none;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        // width: 50px;
+        height: 35px;
+        padding: 10px 15px;
+    }
+    &__block{
+        display: flex;
+        align-items: center;
+    }
+    &__block-title{
+        width: 105px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    &__basket-link{
+        display: flex;
+        align-items: center;
+    }
+    &__basket-text{
+        width: 85px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    &__basket-subtext{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,117 @@
+@font-face {
+  font-family: MyriadPro-Light;
+  src: url("../assets/MyriadPro-Light.ttf");
+}
+@font-face {
+  font-family: MyriadPro-Regular;
+  src: url("../assets/MyriadPro-Regular.ttf");
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: MyriadPro-Regular;
+  color: #121212;
+  background-color: #F4F1F1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__nav {
+  background: #00a94b;
+  padding: 20px 190px;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.header__list-item--bordered {
+  border-right: 1px solid #fff;
+  padding-right: 30px;
+}
+.header__icon {
+  margin-right: 10px;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 190px 12px;
+  background-color: #E8E7E7;
+}
+.header__select {
+  width: 65px;
+  height: 35px;
+  background-color: #F1F1F1;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+.header__input {
+  width: 770px;
+  height: 35px;
+  border: none;
+}
+.header__btn {
+  background-color: #FFAE2D;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 35px;
+  padding: 10px 15px;
+}
+.header__block {
+  display: flex;
+  align-items: center;
+}
+.header__block-title {
+  width: 105px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.header__basket-link {
+  display: flex;
+  align-items: center;
+}
+.header__basket-text {
+  width: 85px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.header__basket-subtext {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
