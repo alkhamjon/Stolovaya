@@ -1,7 +1,7 @@
 .header{
     &__nav{
         background: #00a94b;
-        padding: 20px 190px;
+        padding: 20px 0;
     }
     &__list{
         display: flex;
@@ -11,17 +11,27 @@
     }
     &__list-item--bordered{
         border-right: 1px solid #fff;
-        padding-right: 30px;
+        padding-right: 10px;
     }
     &__icon{
-        margin-right: 10px;
+        margin-right: 5px;
+    }
+    &__link{
+        display: flex;
+        align-items: center;
     }
     &__wrapper{
+        padding: 12px 0;
+        background-color: #E8E7E7;
+    }
+    &__wrapper-inner{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 12px 190px 12px;
-        background-color: #E8E7E7;
+    }
+    &__form{
+        display: flex;
+        align-items: center;
     }
     &__select{
         width: 65px;
@@ -32,18 +42,18 @@
         padding: 10px;
     }
     &__input{
-        width: 770px;
+        width: 550px;
         height: 35px;
         border: none;
+        padding: 0 15px;
     }
     &__btn{
         background-color: #FFAE2D;
         border: none;
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
-        // width: 50px;
         height: 35px;
-        padding: 10px 15px;
+        padding: 7px 15px;
     }
     &__block{
         display: flex;
@@ -53,19 +63,31 @@
         width: 105px;
         margin-left: 10px;
         font-size: 14px;
+        font-weight: 300;
+        color: #787878;
     }
     &__basket-link{
         display: flex;
         align-items: center;
+        position: relative;
+    }
+    &__basket-purchasesNum{
+        position: absolute;
+        top: -8px;
+        left: 8px;
+        color: #FF8C00;
     }
     &__basket-text{
         width: 85px;
         margin-left: 10px;
         font-size: 14px;
+        font-weight: 300;
+        color: #787878;
     }
     &__basket-subtext{
         display: block;
         font-size: 16px;
         font-weight: 600;
+        color: #121212;
     }
 }
